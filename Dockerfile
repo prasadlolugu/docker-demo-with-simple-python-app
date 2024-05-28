@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 COPY requirements.txt /usr/src/app/
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN echo hello
+#RUN hello
 # Copying src code to Container
 COPY . /usr/src/app
 
